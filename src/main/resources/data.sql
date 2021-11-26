@@ -23,15 +23,15 @@ INSERT INTO TypeDoc (name, code) VALUES ('Passport of a citizen of the Russian F
 INSERT INTO TypeDoc (name, code) VALUES ('Passport of a citizen of Ukraine', '45');
 INSERT INTO TypeDoc (name, code) VALUES ('Passport of a citizen of Belarus', '23');
 
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 1, 1, '45 12 342342', '24/12/2012');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 2, 1, '46 19 442343', '12/03/2002');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 3, 2, '49 23 547834', '01/12/2015');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 4, 2, '45 11 123422', '23/11/2006');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 5, 3, '12 23 232342', '12/12/2015');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 6, 3, '48 12 346782', '09/03/1995');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 7, 1, '12 25 342409', '01/02/2013');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 8, 1, '01 02 517586', '22/10/2016');
-INSERT INTO Doc (version, person_id, doc_type_id, doc_number, doc_date) VALUES (0, 9, 1, '02 01 512385', '21/10/2011');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (1, 0, 1, '45 12 342342', '24/12/2012');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (2, 0, 1, '46 19 442343', '12/03/2002');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (3, 0, 2, '49 23 547834', '01/12/2015');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (4, 0, 2, '45 11 123422', '23/11/2006');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (5, 0, 3, '12 23 232342', '12/12/2015');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (6, 0, 3, '48 12 346782', '09/03/1995');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (7, 0, 1, '12 25 342409', '01/02/2013');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (8, 0, 1, '01 02 517586', '22/10/2016');
+INSERT INTO Doc (person_id, version, doc_type_id, doc_number, doc_date) VALUES (9, 0, 1, '02 01 512385', '21/10/2011');
 
 INSERT INTO Country (version, name, code) VALUES (0, 'Russian Federation', '643');
 INSERT INTO Country (version, name, code) VALUES (0, 'Ukraine', '254');
